@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Local editor/tooling settings
+.claude/
+
+# YOLO / ML artifacts
+runs/
+weights/
+*.pt
+*.onnx
+*.engine
+datasets/
+*.cache
