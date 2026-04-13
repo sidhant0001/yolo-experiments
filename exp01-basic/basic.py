@@ -7,5 +7,6 @@ model = YOLO("yolo26n.pt")
 
 
 result = model(
-    "src-images/car.jpg"
-)
+    "src-images/car.jpg",
+    save=True,
+    project="output-inference")
